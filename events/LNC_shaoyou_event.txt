@@ -8,6 +8,6 @@ country_event = {
     
     option = {
         name = LNC_shaoyou_event.1.a
-        add_political_power = 100
+        add_political_power = 115
     }
 }
