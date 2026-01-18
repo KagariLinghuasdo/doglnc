@@ -1,0 +1,51 @@
+ability={
+    Eat_McDonald = {
+		name = Eat_McDonald
+		desc = Eat_McDonald_desc
+		type = army_leader
+		#icon = 
+		allowed = {
+			is_border_war = no
+			is_character = LNC_Liewartine
+		}
+		
+		unit_modifiers = {
+		}
+		
+		one_time_effect = {
+			supply_units = 240
+		}
+
+		
+		cost = 0.1
+		duration = 240
+		cooldown = 504
+	}
+    Suicide = {
+		name = Suicide
+		desc = Suicide_desc
+		type = army_leader
+		#icon = 
+		allowed = {
+			is_border_war = no	
+			is_character = LNC_Liewartine
+		}
+		
+		unit_modifiers = { 
+		}
+		
+		one_time_effect = {
+			add_stability=0.01
+			add_manpower = -50000
+			add_timed_idea = {
+    			idea = Suicide_idea
+				days = 7
+			}
+		}
+		
+		cost = 0.1
+		duration = 168
+		cooldown = 24
+	}
+
+}

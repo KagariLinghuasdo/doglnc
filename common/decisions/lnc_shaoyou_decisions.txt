@@ -1,0 +1,41 @@
+lnc_shaoyou_decisions = {
+	decison_shaoyou_debut = {
+
+		allowed = {		
+		}
+
+		available = {
+			AND = {
+				has_country_flag = got_shaoyou_flag
+				has_country_flag = lnc_hired_shaoyou
+			}	
+		}
+
+		visible = {
+			has_country_flag = got_shaoyou_flag
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+		days_remove = 7
+
+		modifier = {
+			
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+		
+		complete_effect = {
+			country_event = LNC_shaoyou_event.1
+
+		}
+
+		remove_effect = {
+			
+		}
+	}     
+
+}

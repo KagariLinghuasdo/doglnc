@@ -1,0 +1,197 @@
+lnc_common_decisions = {
+	hire_lnc = {
+
+		allowed = {
+			
+		}
+
+		available = {
+			is_ai = no
+		}
+
+		visible = {
+			
+		}
+
+		fire_only_once = yes
+
+		cost = 69
+		days_remove = 1
+
+		modifier = {
+			
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+		
+		complete_effect = {
+			lnc_create_leader_lnc = yes
+			set_country_flag = got_lnc_flag
+			add_political_power = 91
+			add_stability = 0.01
+		}
+
+		remove_effect = {
+			
+		}
+	}
+
+	hire_firedargon = {
+
+		allowed = {
+			
+		}
+
+		available = {
+			is_ai = no
+		}
+
+		visible = {
+			
+		}
+
+		fire_only_once = yes
+
+		cost = 69
+		days_remove = 1
+
+		modifier = {
+			
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+		
+		complete_effect = {
+			lnc_create_leader_firedargon = yes
+			set_country_flag = got_firedargon_flag
+			add_political_power = 91
+			add_stability = 0.01
+		}
+
+		remove_effect = {
+			
+		}
+	}
+
+	hire_Liewartine = {
+
+		allowed = {
+			
+		}
+
+		available = {
+			is_ai = no
+		}
+
+		visible = {
+			
+		}
+
+		fire_only_once = yes
+
+		cost = 69
+		days_remove = 1
+
+		modifier = {
+			
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+		
+		complete_effect = {
+			lnc_create_leader_Liewartine = yes
+			set_country_flag = got_Liewartine_flag
+			add_political_power = 91
+			add_stability = 0.01
+		}
+
+		remove_effect = {
+			
+		}
+	}
+
+	hire_OO = {
+
+		allowed = {
+			
+		}
+
+		available = {
+			is_ai = no
+		}
+
+		visible = {
+			
+		}
+
+		fire_only_once = yes
+
+		cost = 69
+		days_remove = 1
+
+		modifier = {
+			
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+		
+		complete_effect = {
+			lnc_create_leader_OO = yes
+			set_country_flag = got_OO_flag
+			add_political_power = 91
+			add_stability = 0.01
+		}
+
+		remove_effect = {
+			
+		}
+	}
+
+	hire_shaoyou = {
+
+		allowed = {
+			
+		}
+
+		available = {
+			is_ai = no
+		}
+
+		visible = {
+			
+		}
+
+		fire_only_once = yes
+
+		cost = 69
+		days_remove = 1
+
+		modifier = {
+			
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+		
+		complete_effect = {
+			lnc_create_leader_shaoyou = yes
+			set_country_flag = got_shaoyou_flag
+			add_political_power = 91
+			add_stability = 0.01
+		}
+
+		remove_effect = {
+			
+		}
+	}              
+
+}

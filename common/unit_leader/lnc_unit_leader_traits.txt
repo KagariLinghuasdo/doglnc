@@ -1,0 +1,179 @@
+leader_traits = {
+			
+	trait_JLUer = {
+		type = all
+		trait_type = personality_trait
+		gain_xp = {
+			always = no # not gainable
+		}
+		allowed = {
+			always = no # not gainable
+		}
+		modifier = {
+			acclimatization_hot_climate_gain_factor=0.3
+			dig_in_speed_factor=-0.05
+			planning_speed=-0.05
+		}	
+		non_shared_modifier = {
+			
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		new_commander_weight = {
+			factor = 0
+		}
+	}
+	trait_Hero_Patriotic_War = {
+		type = all
+		trait_type = personality_trait
+		gain_xp = {
+			always = no # not gainable
+		}
+		allowed = {
+			always = no # not gainable
+		}
+		modifier = {
+			max_dig_in=5
+			army_org_regain=0.1
+			army_armor_attack_factor=0.05
+			army_armor_defence_factor=0.05
+		}
+		
+		non_shared_modifier = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		new_commander_weight = {
+			factor = 0
+		}
+	}
+	trait_SJTUer = {
+		type = all
+		trait_type = personality_trait
+		gain_xp = {
+			always = no # not gainable
+		}
+		allowed = {
+			always = no # not gainable
+		}
+		modifier = {
+			river_crossing_factor=-0.1
+		}
+		
+		non_shared_modifier = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		new_commander_weight = {
+			factor = 0
+		}
+	} 
+	trait_Gekokujou = {
+		type = all
+		trait_type = personality_trait
+		gain_xp = {
+			always = no # not gainable
+		}
+		allowed = {
+			always = no # not gainable
+		}
+		modifier = {
+			initiative_factor=0.1
+			planning_speed=0.25
+			max_planning_factor=-0.15
+			land_reinforce_rate=0.02	
+			
+		}
+		
+		non_shared_modifier = {
+
+
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		new_commander_weight = {
+			factor = 0
+		}
+	} 
+	trait_kards_player = {
+		type = all
+		trait_type = personality_trait
+		gain_xp = {
+			always = no # not gainable
+		}
+		allowed = {
+			always = no # not gainable
+		}
+		modifier = {
+			experience_gain_factor=0.3
+			experience_gain_army_unit=0.1
+		}
+		
+		non_shared_modifier = {
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		new_commander_weight = {
+			factor = 0
+		}
+	}
+	trait_shenjingbaizhan = {
+		type = land
+		allowed = {
+			always = no
+		}
+		trait_xp_factor = {
+			trickster = 1
+			winter_specialist = 1
+			commando = 1
+			swamp_fox = 1
+			ranger = 1
+			hill_fighter = 1
+			urban_assault_specialist = 1
+			naval_invader = 1
+			infantry_expert = 1
+			armor_officer = 1
+		}
+	}
+	trait_conservative = {
+		type = land
+		trait_type = personality_trait
+		allowed = {
+			always = no
+		}
+		defense_skill = 1
+		logistics_skill = 1
+		modifier = {
+			experience_gain_factor = -0.1
+			max_dig_in = 2
+			dont_lose_dig_in_on_attack = 1
+			army_strength_factor = 0.05
+		}
+	}
+	trait_complete_planner = {
+		type = land
+		trait_type = personality_trait
+		allowed = {
+			always = no
+		}
+		planning_skill = 1
+		attack_skill_factor = 2
+		logistics_skill_factor = 2
+		modifier = {
+			max_planning = 0.1
+			planning_speed = -0.2
+		}
+	}
+ 
+}

@@ -1,0 +1,33 @@
+leader_traits = {
+		
+	exiting_airforce_country_leader_trait = { 
+		random = no
+		
+		enemy_army_bonus_air_superiority_factor = 0.05
+		air_mission_efficiency = -1
+		air_maximum_speed_factor = -1
+		experience_gain_air_factor = -1
+		air_accidents = 1
+		army_speed_factor = -0.10
+		army_attack_factor = 0.15
+		army_defence_factor = 0.15
+		max_dig_in_factor = 0.15
+		experience_gain_army=0.15
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	Vanilla_trait = { 
+		random = no
+		consumer_goods_factor = 0.05
+		compliance_gain = 0.01
+		production_speed_buildings_factor = 0.18
+		weekly_manpower = 5000
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+}

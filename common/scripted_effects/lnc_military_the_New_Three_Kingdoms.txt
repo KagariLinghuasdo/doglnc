@@ -1,0 +1,34 @@
+research_military_the_New_Three_Kingdoms = {
+    if = {
+		limit = { has_idea = idea_victor_arrogant }
+		swap_ideas = {
+			remove_idea = idea_victor_arrogant
+			add_idea = idea_arrogant_defeat
+		}
+	}
+	else_if = {
+		limit = { has_idea = idea_arrogant_defeat }
+		swap_ideas = {
+			remove_idea = idea_arrogant_defeat
+			add_idea = idea_defeat_mourn
+		}
+	}
+    else_if = {
+		limit = { has_idea = idea_defeat_mourn }
+		swap_ideas = {
+			remove_idea = idea_defeat_mourn
+			add_idea = idea_mourn_victor
+		}
+	}
+    else_if = {
+		limit = { has_idea = idea_mourn_victor }
+		swap_ideas = {
+			remove_idea = idea_mourn_victor
+			add_idea = idea_victor_arrogant
+		}
+	}
+    else = {
+        add_ideas = idea_victor_arrogant
+    }
+
+}

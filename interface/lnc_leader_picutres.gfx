@@ -1,0 +1,32 @@
+spriteTypes = {	
+	spriteType = {
+		name = GFX_portrait_lnc
+		texturefile = gfx/leaders/GFX_portrait_lnc_38x51.png
+	}
+}
+spriteTypes = {	
+	spriteType = {
+		name = GFX_portrait_firedargon
+		texturefile = gfx/leaders/GFX_portrait_firedargon_156x210.png
+	}
+}
+spriteTypes = {	
+	spriteType = {
+		name = GFX_portrait_Liewartine
+		texturefile = gfx/leaders/GFX_portrait_Liewartine_156x210.png
+	}
+}
+spriteTypes = {	
+	spriteType = {
+		name = GFX_portrait_OO
+		texturefile = gfx/leaders/GFX_portrait_OO_156x210.png
+	}
+}
+spriteTypes = {	
+	spriteType = {
+		name = GFX_portrait_shaoyou
+		texturefile = gfx/leaders/GFX_portrait_shaoyou_38x51.png
+	}
+}
+
+ 

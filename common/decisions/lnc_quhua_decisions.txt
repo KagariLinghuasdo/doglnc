@@ -1,0 +1,54 @@
+lnc_quhua_decisions = {
+	decison_research_military_the_New_Three_Kingdoms = {
+
+		allowed = {		
+		}
+
+		available = {
+			AND = {
+				has_country_flag = got_OO_flag
+				has_country_flag = got_Liewartine_flag
+				has_country_flag = got_firedargon_flag
+			}	
+		}
+
+		visible = {
+			AND = {
+				has_country_flag = got_OO_flag
+				has_country_flag = got_Liewartine_flag
+				has_country_flag = got_firedargon_flag
+			}	
+		}
+
+		fire_only_once = no
+
+		custom_cost_trigger = {
+			has_army_experience > 74
+		}
+		custom_cost_text = decision_cost_ArmXP_75
+
+		days_remove = 30
+
+		modifier = {
+			
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+		
+		complete_effect = {
+			hidden_effect = {
+				army_experience = -75	
+			}
+			
+		}
+
+		remove_effect = {
+			hidden_effect = {
+				research_military_the_New_Three_Kingdoms=yes	
+			}
+		}
+	}     
+
+}

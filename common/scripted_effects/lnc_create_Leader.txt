@@ -1,0 +1,28 @@
+lnc_create_leader_lnc = {
+    generate_character = {
+        token_base = LNC_lnc 
+    }
+}
+
+lnc_create_leader_firedargon = {
+    generate_character = {
+        token_base = LNC_firedargon 
+    }
+}
+
+lnc_create_leader_Liewartine = {
+    generate_character = {
+        token_base = LNC_Liewartine 
+    }
+}
+
+lnc_create_leader_OO = {
+    generate_character = {
+        token_base = LNC_OO 
+    }
+}
+lnc_create_leader_shaoyou = {
+    generate_character = {
+        token_base = LNC_shaoyou
+    }
+}

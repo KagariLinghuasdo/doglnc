@@ -1,0 +1,10 @@
+Not_step_back_dynamic_modifier= {
+    icon = 
+    enable = { always = yes }
+    remove_trigger = {
+        has_war = no
+    }
+    political_power_gain = var_name # Variable value
+    weekly_manpower = 1000 # Constant value
+    stability_factor = GER.stability_var # Checks specifically GER's variable, regardless of where the modifier is applied
+}

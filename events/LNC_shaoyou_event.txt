@@ -1,0 +1,13 @@
+add_namespace = LNC_shaoyou_event
+country_event = {
+    id = LNC_shaoyou_event.1
+    title = LNC_shaoyou_event.1.t
+    desc = LNC_shaoyou_event.1.desc
+    
+    is_triggered_only = yes
+    
+    option = {
+        name = LNC_shaoyou_event.1.a
+        add_political_power = 100
+    }
+}

@@ -1,0 +1,66 @@
+ideas = {
+    hidden_ideas = {
+        Suicide_idea={
+            modifier = {
+                army_strength_factor=-2
+			    army_org_factor=-2
+			    supply_consumption_factor=-2
+			    army_attack_factor=-2   
+            }
+
+        }
+
+    }
+    country = {
+        idea_victor_arrogant = {
+            modifier = {
+                intel_network_gain_factor=-0.5
+                recon_factor=-0.5
+                training_time_factor=0.25
+                supply_consumption_factor=0.25
+                compliance_gain=0.01
+                industrial_capacity_factory=0.05
+                political_power_gain=0.5
+                stability_factor=0.1
+            }
+        }
+        idea_arrogant_defeat = {
+            modifier = {
+                army_attack_factor=-0.1			
+                army_defence_factor=-0.1
+                breakthrough_factor=-0.15
+                army_org_factor=-0.25
+                army_org_regain=-0.5
+                compliance_gain=0.02
+                recruitable_population_factor=-0.01
+                war_support_factor=-0.1
+                industrial_capacity_factory=0.15
+                production_speed_buildings_factor=0.15
+            }
+        }
+        idea_defeat_mourn = {
+            modifier = {
+                army_attack_factor=0.05			
+                army_defence_factor=0.05
+                breakthrough_factor=-0.05
+                war_support_factor=-0.1
+                stability_factor=-0.1
+                industrial_capacity_factory=0.1
+                production_speed_buildings_factor=0.1
+            }
+
+        }
+        idea_mourn_victor = {
+            modifier = {
+                army_attack_factor=0.15			
+                army_defence_factor=0.15
+                breakthrough_factor=0.15
+                war_support_factor=0.17
+                compliance_gain=-0.01
+                
+            }
+
+        }
+
+    }
+}

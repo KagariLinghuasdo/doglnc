@@ -1,0 +1,40 @@
+lnc_common_decisions = {
+	allowed = {
+		always=yes
+	}
+	available = {
+		is_ai = no
+	}
+	visible = {
+		always=yes
+	}
+}
+lnc_shaoyou_decisions = {
+	allowed = {
+		always=yes
+	}
+	available = {
+		is_ai = no
+	}
+	visible = {
+		AND = {
+			is_ai = no
+			has_country_flag = got_shaoyou_flag
+		}
+
+	}
+}
+lnc_quhua_decisions = {
+	allowed = {
+		always=yes
+	}
+	available = {
+		is_ai = no
+	}
+	visible = {
+		AND = {
+			is_ai = no
+		}
+
+	}
+}

@@ -1,0 +1,108 @@
+every_possible_country = {
+    limit = {
+        always = no
+    }
+    generate_character = {
+        token_base = LNC_lnc
+        name = "lnc"
+		portraits={
+			civilian={
+				small=GFX_portrait_lnc
+			}
+		}
+        advisor = {
+            slot = air_chief
+            idea_token = LNC_lnc
+            traits = { exiting_airforce_country_leader_trait }
+        }
+    }
+    generate_character = {
+        token_base = LNC_firedargon
+        name = "燚龘"
+		portraits={
+			army={
+				#small=
+                large=GFX_portrait_firedargon
+			}
+		}
+        corps_commander={
+			traits = { trait_JLUer trait_Hero_Patriotic_War brilliant_strategist armor_officer panzer_leader commando trickster}
+			attack_skill = 9
+			defense_skill = 3
+			planning_skill = 5
+			logistics_skill = 2
+			skill = 6
+			legacy_id=-1
+		}
+    }
+    generate_character = {
+        token_base = LNC_Liewartine
+        name = "Liewartine"
+		portraits={
+			army={
+				#small=
+                large=GFX_portrait_Liewartine
+			}
+		}
+        corps_commander={
+			traits = {trait_SJTUer trait_Gekokujou trait_kards_player naval_invader cavalry_leader infantry_leader}
+			attack_skill = 7
+			defense_skill = 4
+			planning_skill = 6
+			logistics_skill = 8
+			skill = 6
+			legacy_id=-1
+		}
+    }
+	generate_character = {
+        token_base = LNC_OO
+        name = OO
+		portraits={
+			civilian = {
+				large = GFX_portrait_OO
+			}
+			army={
+				large = GFX_portrait_OO
+			}
+		}
+        corps_commander = {
+			desc = OO_desc
+			traits = {
+				trait_shenjingbaizhan
+				trait_conservative
+				trait_complete_planner
+				trait_kards_player
+			}
+			visible = {
+				has_country_flag = got_OO_flag
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+    }
+	generate_character = {
+        token_base = LNC_shaoyou
+        name = "少游"
+		portraits={
+			civilian = {
+				small = GFX_portrait_shaoyou
+			}
+		}
+		advisor = {
+            slot = political_advisor
+            idea_token = LNC_shaoyou
+            traits = { Vanilla_trait }
+			on_add = {
+				set_country_flag = lnc_hired_shaoyou
+			}
+			on_remove = {
+				clr_country_flag = lnc_hired_shaoyou
+			}
+        }
+
+    }
+
+}
