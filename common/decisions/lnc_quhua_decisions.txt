@@ -23,7 +23,7 @@ lnc_quhua_decisions = {
 		fire_only_once = no
 
 		custom_cost_trigger = {
-			has_army_experience > 499
+			has_army_experience > 49
 		}
 		custom_cost_text = decision_cost_ArmXP_50
 
