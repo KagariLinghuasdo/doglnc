@@ -161,6 +161,45 @@ lnc_quhua_decisions = {
 		remove_effect = {
 			remove_ideas = idea_firedargon_grand_training
 		}
-	}             
+	}
+	decison_Demand_Swedish_Ball_Bearings = {
+
+		allowed = {		
+		}
+
+		available = {
+			AND = {
+				has_country_flag = got_firedargon_flag
+				NOT = {has_idea = idea_LNC_ball_bearing}
+			}
+		}
+
+		visible = {
+			AND = {
+				has_country_flag = got_firedargon_flag
+				NOT = {has_idea = idea_LNC_ball_bearing}
+			}
+		}
+
+		fire_only_once = no
+
+		days_remove = 0
+
+		modifier = {
+			
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+		
+		complete_effect = {
+			
+		}
+
+		remove_effect = {
+			add_ideas = idea_LNC_ball_bearing
+		}
+	}                     
 
 }

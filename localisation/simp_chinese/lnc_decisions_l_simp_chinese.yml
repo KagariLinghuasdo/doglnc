@@ -3,9 +3,15 @@
 
 
  hire_lnc:"招募lnc" 
+ hire_lnc_desc:"§Llnc曾是一位优秀的空军部长，但是在德法战役忘记起飞飞机被革职§!"
  hire_firedargon:"招募燚龘"
+ hire_firedargon_desc:"§L燚龘是一位优秀的将领，他指挥的战役从不丹到奥萨苏丹国，遍布整个世界§!"
  hire_Liewartine:"招募Liewartine"
+ hire_Liewartine_desc:"§LLiewartine是一位日本陆军军官，传说是天皇微服私访§!"
  hire_OO:"招募海洋"
+ hire_OO_desc:"§L海洋是一位学习能力较强的将领§!"
+ hire_Ratatouille:"招募美食。老鼠"
+ hire_Ratatouille_desc:"§L美食。老鼠是一位瑞典陆军将领，擅长夜战§!"
 
  lnc_quhua_decisions:"群友的聊天"
 
@@ -14,10 +20,13 @@
  decison_Yamato_cultural_heritage_desc:"§L我是日本入——牢头如是说§!"
 
  decison_start_firedargon_grand_training:"开始火龙大练兵"
- decison_start_firedargon_grand_training_desc:"§L纽伦堡，开庭——火龙如是说§!"
+ decison_start_firedargon_grand_training_desc:"§L纽伦堡，开庭——火龙如是说。§!"
 
  decison_stop_firedargon_grand_training:"结束火龙大练兵"
  decison_stop_firedargon_grand_training_desc:"§L纽伦堡，休庭§!"
+
+ decison_Demand_Swedish_Ball_Bearings:"向瑞典索要滚珠轴承" 
+ decison_Demand_Swedish_Ball_Bearings_desc:"§L美食。老鼠长期游玩瑞典，或许有特殊的渠道帮助我们获得滚珠轴承§!"
 
 
  decison_research_military_the_New_Three_Kingdoms:"研究新三国军事理论"
@@ -25,7 +34,8 @@
  idea_arrogant_defeat:"骄兵必败"
  idea_defeat_mourn:"败兵必哀"
  idea_mourn_victor:"哀兵必胜"
+ idea_LNC_ball_bearing:"来路不明的滚珠轴承"
  decison_research_military_the_New_Three_Kingdoms_desc:"§L“胜兵必骄，骄兵必败，败兵必哀，哀兵必胜”是新三国军事理论的基本内容。研究新三国军事理论就像一个轮回，需要消耗大量的时间资源§!"
  decision_cost_ArmXP_50:"£army_experience §Y50§!"
  decision_cost_ArmXP_50_blocked:"£army_experience §R50§!"
- decision_cost_ArmXP_50_tooltip:"执行此决议需要£army_experience  §Y50§!
+ decision_cost_ArmXP_50_tooltip:"执行此决议需要£army_experience  §Y50§!"

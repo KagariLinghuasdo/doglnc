@@ -29,5 +29,30 @@ leader_traits = {
 			factor = 0
 		}
 	}
+	Swedish_Liaison = {
+		random = no
+		add_opinion_modifier = {
+			target = SWE              
+			modifier = large_increase 
+		}
+		send_volunteer_divisions_required = 0		
+		send_volunteer_size = 10
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	Galgameplayer = {
+		random = no
+		stability_weekly = 0.01
+		improve_relation_modifier = 0.25
+		decryption_power = 0.10
+		consumer_goods_expected_value = 0.05
+		training_time_factor = 0.10		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
 
 }

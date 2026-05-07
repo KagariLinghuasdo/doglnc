@@ -21,6 +21,11 @@ lnc_create_leader_OO = {
         token_base = LNC_OO 
     }
 }
+lnc_create_leader_Ratatouille = {
+    generate_character = {
+        token_base = LNC_Ratatouille
+    }
+}
 lnc_create_leader_shaoyou = {
     generate_character = {
         token_base = LNC_shaoyou

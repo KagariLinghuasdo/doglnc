@@ -134,16 +134,16 @@ leader_traits = {
 			always = no
 		}
 		trait_xp_factor = {
-			trickster = 1
-			winter_specialist = 1
-			commando = 1
-			swamp_fox = 1
-			ranger = 1
-			hill_fighter = 1
-			urban_assault_specialist = 1
-			naval_invader = 1
-			infantry_expert = 1
-			armor_officer = 1
+			trickster = 10
+			winter_specialist = 10
+			commando = 10
+			swamp_fox = 10
+			ranger = 10
+			hill_fighter = 10
+			urban_assault_specialist = 10
+			naval_invader = 10
+			infantry_expert = 10
+			armor_officer = 10
 		}
 	}
 	trait_conservative = {
@@ -175,5 +175,35 @@ leader_traits = {
 			planning_speed = -0.2
 		}
 	}
+	trait_galgame_master = {
+		type = land
+		trait_type = personality_trait
+		planning_skill = 1
+		modifier = {
+            planning_speed = 0.25 
+			wound_chance_factor = 0.50
+		}
+	}
+
+	trait_night_mouse = {
+		type = land
+		trait_type = personality_trait
+		modifier = {
+			land_night_attack = 0.30
+
+            army_speed_factor = -0.10
+            initiative_factor = -0.15
+		}
+	}
+	trait_UESTCer = {
+		type = land
+		trait_type = personality_trait
+		modifier = {
+			recon_factor = 0.25
+        	coordination_bonus = 0.15
+        	signal_company_initiative_factor = 0.50
+		}
+	}
+
  
 }

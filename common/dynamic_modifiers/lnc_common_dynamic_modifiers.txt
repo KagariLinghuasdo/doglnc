@@ -1,5 +1,5 @@
 LNC_Yamato_cultural_heritage_dynamic_modifier= {
-    icon = {GFX_idea_NOR_luftforsvaret_ns}
+    icon = GFX_idea_JAP_east_asian_co_prosperity
     enable = { always = yes }
     remove_trigger = { always = no }
 

@@ -1,7 +1,48 @@
 spriteTypes = {	
 	spriteType = {
-        name = GFX_trait_JLUer
-        texturefile = gfx/traits/GFX_traits_JLUer_23x33.png
+        name = "GFX_trait_trait_JLUer"
+        texturefile = "gfx/traits/GFX_traits_JLUer_23x33.png"
     }
+    spriteType = {
+        name = "GFX_trait_trait_Hero_Patriotic_War"
+        texturefile = "gfx/interface/traits/personal/trait_SPR_stalinist_loyalties.dds"
+    }
+    spriteType = {
+        name = "GFX_trait_trait_SJTUer"
+        texturefile = "gfx/traits/GFX_traits_SJTU_23x33.png"
+    }
+    spriteType = {
+        name = "GFX_trait_trait_Gekokujou"
+        texturefile = "gfx/interface/traits/personal/trait_JAP_IJA_loyalist.dds"
+    }
+    spriteType = {
+        name = "GFX_trait_trait_kards_player"
+        texturefile = "gfx/traits/GFX_traits_kardsplayer_23x33.png"
+    }
+    spriteType = {
+        name = "GFX_trait_trait_shenjingbaizhan"
+        texturefile = "gfx/interface/traits/personal/trait_war_hero.dds"
+    }
+    spriteType = {
+        name = "GFX_trait_trait_conservative"
+        texturefile = "gfx/interface/traits/trait_defensive_doctrine.dds"
+    }
+    spriteType = {
+        name = "GFX_trait_trait_complete_planner"
+        texturefile = "gfx/interface/traits/trait_organizer.dds"
+    }
+    spriteType = {
+        name = "GFX_trait_trait_galgame_master"
+        texturefile = "gfx/traits/GFX_traits_galgame_master_23x33.png"
+    }
+    spriteType = {
+        name = "GFX_trait_trait_night_mouse"
+        texturefile = "gfx/traits/GFX_traits_night_mouse_23x33.png"
+    }
+    spriteType = {
+        name = "GFX_trait_trait_UESTCer"
+        texturefile = "gfx/traits/GFX_traits_UESTCer_23x33.png"
+    }
+
 }
  

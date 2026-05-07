@@ -13,6 +13,7 @@ ideas = {
     }
     country = {
         idea_victor_arrogant = {
+            picture =  CHI_cult_of_shek 
             modifier = {
                 intel_network_gain_factor=-0.5
                 recon_factor=-0.5
@@ -25,6 +26,7 @@ ideas = {
             }
         }
         idea_arrogant_defeat = {
+            picture =  CHI_cult_of_shek 
             modifier = {
                 army_attack_factor=-0.1			
                 army_defence_factor=-0.1
@@ -39,6 +41,7 @@ ideas = {
             }
         }
         idea_defeat_mourn = {
+            picture =  CHI_cult_of_shek 
             modifier = {
                 army_attack_factor=0.05			
                 army_defence_factor=0.05
@@ -51,6 +54,7 @@ ideas = {
 
         }
         idea_mourn_victor = {
+            picture =  CHI_cult_of_shek 
             modifier = {
                 army_attack_factor=0.15			
                 army_defence_factor=0.15
@@ -67,7 +71,7 @@ ideas = {
             }
         }
         idea_firedargon_grand_training = {
-
+            picture =  officers_purged 
 			removal_cost = -1
 
 			allowed = {
@@ -82,6 +86,36 @@ ideas = {
 			}
 			
 		}
+        idea_LNC_ball_bearing = {
+            picture = can_wartime_prices_and_trade_board
+            allowed = {
+                always = yes
+            }
+
+            equipment_bonus = {
+                small_plane_airframe = {
+                    build_cost_ic = -0.08 instant = yes
+                }
+                medium_plane_airframe = {
+                    build_cost_ic = -0.06 instant = yes
+                }
+                large_plane_airframe = {
+                    build_cost_ic = -0.05 instant = yes
+                }
+
+                light_tank_chassis = {
+                    build_cost_ic = -0.08  instant = yes
+                }
+
+                medium_tank_chassis = {
+                    build_cost_ic = -0.06 instant = yes
+                }
+
+                heavy_tank_chassis = {
+                    build_cost_ic = -0.05 instant = yes
+                }
+            }
+        }
 
 
     }

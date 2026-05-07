@@ -84,6 +84,32 @@ every_possible_country = {
 		}
     }
 	generate_character = {
+        token_base = LNC_Ratatouille
+        name = "美食。老鼠"
+		portraits={
+			army={
+				large = GFX_portrait_Ratatouille
+			}
+		}
+        corps_commander = {
+			desc = OO_desc
+			traits = {
+				trait_galgame_master
+				trait_night_mouse
+				trait_UESTCer
+			}
+			visible = {
+				has_country_flag = got_Ratatouille_flag
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 8
+			logistics_skill = 1
+		}
+
+    }
+	generate_character = {
         token_base = LNC_shaoyou
         name = "少游"
 		portraits={

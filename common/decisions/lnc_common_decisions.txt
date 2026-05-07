@@ -154,7 +154,46 @@ lnc_common_decisions = {
 			add_stability = 0.01
 		}
 	}
+	hire_Ratatouille = {
 
+		allowed = {
+			
+		}
+
+		available = {
+			is_ai = no
+		}
+
+		visible = {
+			
+		}
+
+		fire_only_once = yes
+
+		cost = 69
+		days_remove = 30
+
+		modifier = {
+			
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+		
+		complete_effect = {
+
+		}
+
+		remove_effect = {
+			lnc_create_leader_Ratatouille = yes
+			set_country_flag = got_Ratatouille_flag
+			add_political_power = 91
+			add_stability = 0.01
+		}
+	}
+
+#暂时废弃
 	hire_shaoyou = {
 
 		allowed = {

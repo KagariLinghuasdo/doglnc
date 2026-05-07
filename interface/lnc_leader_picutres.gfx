@@ -28,5 +28,11 @@ spriteTypes = {
 		texturefile = gfx/leaders/GFX_portrait_shaoyou_38x51.png
 	}
 }
+spriteTypes = {	
+	spriteType = {
+		name = GFX_portrait_Ratatouille
+		texturefile = gfx/leaders/GFX_portrait_Ratatouille_156x210.png
+	}
+}
 
  
