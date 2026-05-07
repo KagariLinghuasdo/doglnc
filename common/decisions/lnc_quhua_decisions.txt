@@ -169,14 +169,14 @@ lnc_quhua_decisions = {
 
 		available = {
 			AND = {
-				has_country_flag = got_firedargon_flag
+				has_country_flag = got_Ratatouille_flag
 				NOT = {has_idea = idea_LNC_ball_bearing}
 			}
 		}
 
 		visible = {
 			AND = {
-				has_country_flag = got_firedargon_flag
+				has_country_flag = got_Ratatouille_flag
 				NOT = {has_idea = idea_LNC_ball_bearing}
 			}
 		}
