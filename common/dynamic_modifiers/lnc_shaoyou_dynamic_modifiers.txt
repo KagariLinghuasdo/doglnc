@@ -17,4 +17,20 @@ lnc_ai_guided_construction = {
 	civilian_factory_use =  shaoyou_civilian_factory_use
 	factory_energy_consumption =  shaoyou_factory_energy_consumption 
 	local_resources_factor = shaoyou_local_resources_factor 
+	research_sharing_per_country_bonus_factor = research_sharing_per_country_bonus_factor
+	#军用系数
+	industrial_capacity_factory=industrial_capacity_factory 
+	industrial_capacity_dockyard =  shaoyou_industrial_capacity_dockyard
+	factory_max_efficiency_factor =  shaoyou_factory_max_efficiency_factor
+	factory_efficiency_gain_factor =  shaoyou_factory_efficiency_gain_factor
+	production_lack_of_resource_penalty_factor =  shaoyou_production_lack_of_resource_penalty_factor
+	military_factory_refit_cost_factor =  shaoyou_military_factory_refit_cost_factor
+	armor_cost_factor =  shaoyou_armor_cost_factor
+	fighter_cost_factor =  shaoyou_fighter_cost_factor
+	#军队系数
+	land_reinforce_chance = shaoyou_land_reinforce_chance
+	air_mission_efficiency_factor =  shaoyou_air_mission_efficiency_factor
+	coordination_bonus =  shaoyou_coordination_bonus
+	planning_speed =  shaoyou_planning_speed
+	max_planning =  shaoyou_max_planning
 }

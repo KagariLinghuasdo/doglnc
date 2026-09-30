@@ -30,6 +30,23 @@ lnc_shaoyou_decisions = {
 				set_variable = { shaoyou_research_speed_factor = 0 }
 				set_variable = { shaoyou_improve_relations_maintain_cost_factor = 0 }
 				set_variable = { shaoyou_local_resources_factor = 0 }
+				set_variable = { shaoyou_research_sharing_per_country_bonus_factor = 0.0 }
+				#军用系数
+				set_variable = { shaoyou_industrial_capacity_factory = 0 }
+				set_variable = { shaoyou_industrial_capacity_dockyard = 0 }
+				set_variable = { shaoyou_factory_max_efficiency_factor = 0 }
+				set_variable = { shaoyou_factory_efficiency_gain_factor= 0 }
+				set_variable = { shaoyou_production_lack_of_resource_penalty_factor= 0 }
+				set_variable = { shaoyou_military_factory_refit_cost_factor = 0 }
+				set_variable = { shaoyou_armor_cost_factor = 0 }
+				set_variable = { shaoyou_fighter_cost_factor = 0 }
+
+				#军队系数
+				set_variable = { shaoyou_land_reinforce_chance = 0 }
+				set_variable = { shaoyou_air_mission_efficiency_factor = 0 }
+				set_variable = { coordination_bonus = 0 }
+				set_variable = { planning_speed  = 0 }
+				set_variable = { max_planning = 0 }
 
 			}
 		}
