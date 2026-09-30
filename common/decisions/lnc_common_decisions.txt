@@ -111,6 +111,7 @@ lnc_common_decisions = {
 		remove_effect = {
 			lnc_create_leader_Liewartine = yes
 			set_country_flag = got_Liewartine_flag
+			set_technology = { lnc_mcdonalds_forces = 1 }
 			add_political_power = 91
 			add_stability = 0.01
 		}

@@ -8,7 +8,15 @@ country_event = {
 	option = {
 		name = LNC_shaoyou_event.civilian
 		add_political_power = 50
-		add_stability = 0.05
+		set_variable = { shaoyou_stability_weekly = 0.01 }
+		set_variable = { shaoyou_opinion_gain_monthly_factor = 0.15 }
+		set_variable = { shaoyou_production_speed_infrastructure_factor= 0.25 }
+		set_variable = { shaoyou_production_speed_industrial_complex_factor= 0.15 }
+		set_variable = { shaoyou_research_speed_factor = 0.10 }
+		add_offsite_building = {
+			type = industrial_complex
+			level = 3
+    	}
 		lnc_refresh_ai_guided_construction = yes
 	}
 	option = {
@@ -38,7 +46,16 @@ country_event = {
 	option = {
 		name = LNC_shaoyou_event.civilian
 		add_political_power = 50
-		add_stability = 0.05
+		set_variable = { shaoyou_stability_weekly = 0.01 }
+		set_variable = { shaoyou_opinion_gain_monthly_factor = 0.15 }
+		set_variable = { shaoyou_production_speed_infrastructure_factor= 0.50 }
+		set_variable = { shaoyou_production_speed_industrial_complex_factor= 0.20 }
+		set_variable = { shaoyou_research_speed_factor = 0.20 }
+		set_variable = { shaoyou_local_resources_factor = 0.20 }
+		add_offsite_building = {
+			type = industrial_complex
+			level = 3
+    	}
 		lnc_refresh_ai_guided_construction = yes
 	}
 	option = {
@@ -73,8 +90,15 @@ country_event = {
 	}
 	option = {
 		name = LNC_shaoyou_event.military
-		add_political_power = 50
-		add_war_support = 0.05
+		set_variable = { shaoyou_stability_weekly = 0.01 }
+		set_variable = { shaoyou_opinion_gain_monthly_factor = 0.05 }
+		set_variable = { shaoyou_production_speed_infrastructure_factor= 0.10 }
+		set_variable = { shaoyou_production_speed_industrial_complex_factor= 0.05 }
+		set_variable = { shaoyou_research_speed_factor = 0.03 }
+		add_offsite_building = {
+			type = industrial_complex
+			level = 3
+    	}
 		lnc_refresh_ai_guided_construction = yes
 	}
 	option = {

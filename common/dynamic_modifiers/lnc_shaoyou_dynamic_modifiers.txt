@@ -16,4 +16,5 @@ lnc_ai_guided_construction = {
 	improve_relations_maintain_cost_factor =  shaoyou_improve_relations_maintain_cost_factor 
 	civilian_factory_use =  shaoyou_civilian_factory_use
 	factory_energy_consumption =  shaoyou_factory_energy_consumption 
+	local_resources_factor = shaoyou_local_resources_factor 
 }
