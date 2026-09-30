@@ -37,3 +37,8 @@ lnc_create_leader_doctrine_master = {
 		token_base = LNC_Zinc
 	}
 }
+lnc_create_leader_Storozhevoy = {
+    generate_character = {
+		token_base = LNC_Storozhevoy
+	}
+}

@@ -163,5 +163,22 @@ every_possible_country = {
 			traits = { military_theorist }
 		}
 	}
-
+	generate_character = {
+		token_base = LNC_Storozhevoy
+		name = "Storozhevoy"
+		portraits = {
+			army = {
+				large = GFX_portrait_Storozhevoy_army
+			}
+		}
+		corps_commander = {
+			desc = Storozhevoy_desc
+			traits = { trait_HSR_player_1 trait_UESTCer }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
 }

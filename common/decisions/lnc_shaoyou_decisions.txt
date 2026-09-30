@@ -36,7 +36,7 @@ lnc_shaoyou_decisions = {
 			set_country_flag = {
 				flag = lnc_shaoyou_llm_cooldown
 				value = 1
-				days = 1
+				days = 90
 			}
 			init_shaoyou_variables = yes
 		}
@@ -63,7 +63,7 @@ lnc_shaoyou_decisions = {
 			set_country_flag = {
 				flag = lnc_shaoyou_llm_cooldown
 				value = 1
-				days = 1
+				days = 90
 			}
 			init_shaoyou_variables = yes
 		}
@@ -90,7 +90,7 @@ lnc_shaoyou_decisions = {
 			set_country_flag = {
 				flag = lnc_shaoyou_llm_cooldown
 				value = 1
-				days = 1
+				days = 90
 			}
 			init_shaoyou_variables = yes
 		}
@@ -124,7 +124,7 @@ lnc_shaoyou_decisions = {
 			set_country_flag = {
 				flag = lnc_shaoyou_llm_cooldown
 				value = 1
-				days = 1
+				days = 90
 			}
 			init_shaoyou_variables = yes
 		}

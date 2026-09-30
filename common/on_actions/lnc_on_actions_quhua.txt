@@ -49,6 +49,10 @@ on_actions = {
                         remove_dynamic_modifier = { modifier = LNC_Yamato_cultural_heritage_dynamic_modifier }
                     }
                 }
+                if = {
+                    limit = { has_country_flag = got_Storozhevoy_flag }
+                    multiply_variable = { hsr_player_var = 2 }
+                }
 			}
 		}
 	}

@@ -1,0 +1,78 @@
+leader_traits = {
+	trait_HSR_player_1 = {
+		desc
+        type = land
+        trait_type = personality_trait 
+        modifier = {
+            army_attack_factor = 0.005
+            army_defence_factor = 0.005
+        }
+    }
+	trait_HSR_player_2 = {
+        type = land
+        trait_type = personality_trait 
+        modifier = {
+            army_attack_factor = 0.01
+            army_defence_factor = 0.01
+        }
+    }
+	trait_HSR_player_3 = {
+        type = land
+        trait_type = personality_trait 
+        modifier = {
+            army_attack_factor = 0.02
+            army_defence_factor = 0.02
+        }
+    }
+	trait_HSR_player_4 = {
+        type = land
+        trait_type = personality_trait 
+        modifier = {
+            army_attack_factor = 0.08
+            army_defence_factor = 0.08
+        }
+    }
+	trait_HSR_player_5 = {
+        type = land
+        trait_type = personality_trait 
+        modifier = {
+            army_attack_factor = 0.16
+            army_defence_factor = 0.16
+        }
+    }
+	trait_HSR_player_6 = {
+        type = land
+        trait_type = personality_trait 
+        modifier = {
+            army_attack_factor = 0.32
+            army_defence_factor = 0.32
+        }
+    }
+	trait_HSR_player_7 = {
+        type = land
+        trait_type = personality_trait 
+        modifier = {
+            army_attack_factor = 0.64
+            army_defence_factor = 0.64
+        }
+    }
+	trait_HSR_player_8 = {
+        type = land
+        trait_type = personality_trait 
+        modifier = {
+            army_attack_factor = 1.28
+            army_defence_factor = 1.28
+        }
+    }
+	trait_HSR_player_8 = {
+        type = land
+        trait_type = personality_trait 
+        modifier = {
+            army_attack_factor = 2.56
+            army_defence_factor = 2.56
+        }
+    }
+
+
+ 
+}

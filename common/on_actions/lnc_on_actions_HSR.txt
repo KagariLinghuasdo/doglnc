@@ -1,0 +1,82 @@
+on_actions = {
+	on_monthly = {
+		effect = {
+                every_country = {
+                    every_unit_leader = {
+                        if = {
+                            limit = { AND = {has_trait = trait_HSR_player_7 NOT = {has_unit_leader_flag = LNC_update_HSR}} }
+                            remove_unit_leader_trait = trait_HSR_player_7
+                            add_unit_leader_trait = trait_HSR_player_8
+                            set_unit_leader_flag = {
+                                flag = LNC_update_HSR
+                                value = 1
+                                days = 10
+                            }
+                        }
+                        else_if = {
+                            limit = { has_trait = trait_HSR_player_6 NOT = {has_unit_leader_flag = LNC_update_HSR}}
+                            remove_unit_leader_trait = trait_HSR_player_6
+                            add_unit_leader_trait = trait_HSR_player_7
+                            set_unit_leader_flag = {
+                                flag = LNC_update_HSR
+                                value = 1
+                                days = 1
+                            }
+                        }
+                        else_if = {
+                            limit = { has_trait = trait_HSR_player_5 NOT = {has_unit_leader_flag = LNC_update_HSR}}
+                            remove_unit_leader_trait = trait_HSR_player_5
+                            add_unit_leader_trait = trait_HSR_player_6
+                            set_unit_leader_flag = {
+                                flag = LNC_update_HSR
+                                value = 1
+                                days = 1
+                            }
+                        }
+                        else_if = {
+                            limit = { has_trait = trait_HSR_player_4 NOT = {has_unit_leader_flag = LNC_update_HSR}}
+                            remove_unit_leader_trait = trait_HSR_player_4
+                            add_unit_leader_trait = trait_HSR_player_5
+                            set_unit_leader_flag = {
+                                flag = LNC_update_HSR
+                                value = 1
+                                days = 1
+                            }
+                        }
+                        else_if = {
+                            limit = { has_trait = trait_HSR_player_3 NOT = {has_unit_leader_flag = LNC_update_HSR}}
+                            remove_unit_leader_trait = trait_HSR_player_3
+                            add_unit_leader_trait = trait_HSR_player_4
+                            set_unit_leader_flag = {
+                                flag = LNC_update_HSR
+                                value = 1
+                                days = 1
+                            }
+                        }
+                        else_if = {
+                            limit = { AND = {has_trait = trait_HSR_player_2 NOT = {has_unit_leader_flag = LNC_update_HSR}}}
+                            remove_unit_leader_trait = trait_HSR_player_2
+                            add_unit_leader_trait = trait_HSR_player_3
+                            set__unit_leader_flag = {
+                                flag = LNC_update_HSR
+                                value = 1
+                                days = 1
+                            }
+                        }
+                        else_if = {
+                            limit = { AND = {has_trait = trait_HSR_player_1 NOT = {has_unit_leader_flag = LNC_update_HSR}}}
+                            remove_unit_leader_trait = trait_HSR_player_1
+                            add_unit_leader_trait = trait_HSR_player_2
+                            set_unit_leader_flag = {
+                                flag = LNC_update_HSR
+                                value = 1
+                                days = 1
+                            }
+                        }
+
+                    }
+                }
+            
+		}
+	}
+}
