@@ -13,6 +13,7 @@ country_event = {
 		set_variable = { shaoyou_opinion_gain_monthly_factor = 0.15 }
 		set_variable = { shaoyou_production_speed_infrastructure_factor= 0.25 }
 		set_variable = { shaoyou_production_speed_industrial_complex_factor= 0.15 }
+		set_variable = { shaoyou_shaoyou_production_speed_arms_factory_factor = 0.15 }
 		set_variable = { shaoyou_research_speed_factor = 0.10 }
 		add_offsite_building = {
 			type = industrial_complex
@@ -28,17 +29,17 @@ country_event = {
     	}
 		set_variable = { shaoyou_industrial_capacity_factory = 0.10 }
 		set_variable = { shaoyou_industrial_capacity_dockyard = 0.10 }
-		set_variable = { shaoyou_factory_max_efficiency_factor = 0.10}
-		set_variable = { shaoyou_factory_efficiency_gain_factor= 0.50 }
-		set_variable = { shaoyou_armor_cost_factor = -0.12 }
+		set_variable = { shaoyou_production_factory_max_efficiency_factor = 0.25}
+		set_variable = { shaoyou_production_factory_efficiency_gain_factor= 0.50 }
+		 
 		lnc_refresh_ai_guided_construction = yes
 	}
 	option = {
 		name = LNC_shaoyou_event.army
-		set_variable = { shaoyou_land_reinforce_chance = 0.02 }
-		set_variable = { coordination_bonus = 0.02 }
-		set_variable = { planning_speed  = 0.50 }
-		set_variable = { max_planning = 0.50 }
+		set_variable = { shaoyou_land_reinforce_rate = 0.02 }
+		set_variable = { shaoyou_coordination_bonus = 0.02 }
+		set_variable = { shaoyou_planning_speed  = 0.50 }
+		set_variable = { shaoyou_max_planning = 0.50 }
 		lnc_refresh_ai_guided_construction = yes
 	}
 }
@@ -56,7 +57,8 @@ country_event = {
 		set_variable = { shaoyou_opinion_gain_monthly_factor = 0.15 }
 		set_variable = { shaoyou_monthly_population = 0.10 }
 		set_variable = { shaoyou_production_speed_infrastructure_factor= 0.50 }
-		set_variable = { shaoyou_production_speed_industrial_complex_factor= 0.20 }
+		set_variable = { shaoyou_production_speed_industrial_complex_factor= 0.25 }
+		set_variable = { shaoyou_shaoyou_production_speed_arms_factory_factor = 0.25 }
 		set_variable = { shaoyou_research_speed_factor = 0.20 }
 		set_variable = { shaoyou_local_resources_factor = 0.20 }
 		
@@ -71,9 +73,8 @@ country_event = {
 		every_military_industrial_organization = {
         	add_mio_size = 1
     	}
-		set_variable = { shaoyou_factory_max_efficiency_factor = 0.07 }
+		set_variable = { shaoyou_production_factory_max_efficiency_factor = 0.10 }
 		set_variable = { shaoyou_production_lack_of_resource_penalty_factor= -0.20 }
-		set_variable = { shaoyou_military_factory_refit_cost_factor = 0.20 }
 		lnc_refresh_ai_guided_construction = yes
 	}
 	option = {
@@ -98,6 +99,7 @@ country_event = {
 		set_variable = { shaoyou_opinion_gain_monthly_factor = 0.05 }
 		set_variable = { shaoyou_production_speed_infrastructure_factor= 0.10 }
 		set_variable = { shaoyou_production_speed_industrial_complex_factor= 0.05 }
+		set_variable = { shaoyou_shaoyou_production_speed_arms_factory_factor = 0.05 }
 		set_variable = { shaoyou_research_speed_factor = 0.03 }
 		set_variable = { shaoyou_research_sharing_per_country_bonus_factor = 0.50 }
 		add_offsite_building = {
@@ -108,20 +110,23 @@ country_event = {
 	}
 	option = {
 		name = LNC_shaoyou_event.military
+		add_offsite_building = {
+			type = arms_factory
+			level = 3
+    	}
 		set_variable = { shaoyou_industrial_capacity_factory = 0.05 }
 		set_variable = { shaoyou_industrial_capacity_dockyard = 0.05 }
-		set_variable = { shaoyou_factory_max_efficiency_factor = 0.10 }
-		set_variable = { shaoyou_factory_efficiency_gain_factor= 0.15 }
-		set_variable = { shaoyou_fighter_cost_factor = -0.25 }
+		set_variable = { shaoyou_production_factory_max_efficiency_factor = 0.15 }
+		set_variable = { shaoyou_production_factory_efficiency_gain_factor= 0.20 }
 		lnc_refresh_ai_guided_construction = yes
 	}
 	option = {
 		name = LNC_shaoyou_event.army
-		set_variable = { shaoyou_land_reinforce_chance = 0.02 }
+		set_variable = { shaoyou_land_reinforce_rate = 0.02 }
 		set_variable = { shaoyou_air_mission_efficiency_factor = 0.20 }
-		set_variable = { coordination_bonus = 0.02 }
-		set_variable = { planning_speed  = 0.30 }
-		set_variable = { max_planning = 0.30 }
+		set_variable = { shaoyou_coordination_bonus = 0.02 }
+		set_variable = { shaoyou_planning_speed  = 0.30 }
+		set_variable = { shaoyou_max_planning = 0.30 }
 		lnc_refresh_ai_guided_construction = yes
 	}
 }

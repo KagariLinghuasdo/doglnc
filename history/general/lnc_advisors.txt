@@ -130,5 +130,38 @@ every_possible_country = {
         }
 
     }
+	generate_character = {
+		token_base = LNC_Zinc
+		name = "Zinc"
+		portraits = {
+			civilian = {
+				small =  GFX_portrait_Zinc_small
+			}
+			army = {
+				large = GFX_portrait_Zinc_army
+			}
+		}
+		corps_commander = {
+			desc = Zinc_desc
+			traits = { infantry_officer organizer }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 10
+			logistics_skill = 10
+		}
+		advisor = {
+			slot = theorist
+			idea_token = LNC_Zinc
+			cost = 50
+            allowed = {
+                has_country_flag = got_doctrine_master_flag
+            }
+            visible = {
+                has_country_flag = got_doctrine_master_flag
+            }
+			traits = { military_theorist }
+		}
+	}
 
 }

@@ -34,5 +34,17 @@ spriteTypes = {
 		texturefile = gfx/leaders/GFX_portrait_Ratatouille_156x210.png
 	}
 }
+spriteTypes = {	
+	spriteType = {
+		name = GFX_portrait_Zinc_small
+		texturefile = gfx\leaders\GFX_portrait_Zinc_38x51.png
+	}
+}
+spriteTypes = {	
+	spriteType = {
+		name = GFX_portrait_Zinc_army
+		texturefile = gfx\leaders\GFX_portrait_Zinc_156x210.png
+	}
+}
 
  

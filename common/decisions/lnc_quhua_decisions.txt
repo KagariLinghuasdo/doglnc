@@ -201,5 +201,43 @@ lnc_quhua_decisions = {
 			add_ideas = idea_LNC_ball_bearing
 		}
 	}                     
+	decision_lnc_doctrine_mastery = {
+		available = {
+			AND = {
+				has_country_flag = got_doctrine_master_flag
+				has_equipment = { infantry_equipment > 1999 }
+				has_equipment = { artillery_equipment > 399 }
+				has_equipment = { light_tank_chassis > 399 }
+			}
+		}
+		visible = {
+			has_country_flag = got_doctrine_master_flag
+		}
+		fire_only_once = no
+		days_re_enable = 30
+		ai_will_do = {
+			factor = 0
+		}
+		custom_cost_trigger = {
+			AND = {
+				has_equipment = { infantry_equipment > 1999 }
+				has_equipment = { artillery_equipment > 399 }
+				has_equipment = { light_tank_chassis > 399 }
+			}
+		}
+		custom_cost_text = decision_cost_lnc_doctrine_mastery
+		complete_effect = {
+			hidden_effect = {
+				add_equipment_to_stockpile = { type = infantry_equipment amount = -2000 }
+				add_equipment_to_stockpile = { type = artillery_equipment amount = -400 }
+				add_equipment_to_stockpile = { type = light_tank_chassis amount = -400 }
+			}
+			add_daily_mastery = {
+				amount = 2
+				days = 3650
+				name = LNC_mastery_spirit
+			}
+		}
+	}
 
 }

@@ -12,3 +12,39 @@ lnc_refresh_ai_guided_construction = {
 		days = 80
 	}
 }
+init_shaoyou_variables = {
+    hidden_effect = {
+        # 基础消耗
+        set_variable = { shaoyou_civilian_factory_use = 1 }
+        set_variable = { shaoyou_factory_energy_consumption = 0.05 }
+
+        # 民用系数
+        set_variable = { shaoyou_stability_weekly = 0 }
+        set_variable = { shaoyou_opinion_gain_monthly_factor = 0 }
+        set_variable = { shaoyou_monthly_population = 0 }
+        set_variable = { shaoyou_production_speed_infrastructure_factor = 0 }
+        set_variable = { shaoyou_production_speed_industrial_complex_factor = 0 }
+		set_variable = { shaoyou_shaoyou_production_speed_arms_factory_factor = 0.0 }
+        set_variable = { shaoyou_research_speed_factor = 0 }
+        set_variable = { shaoyou_improve_relations_maintain_cost_factor = 0 }
+        set_variable = { shaoyou_local_resources_factor = 0 }
+        set_variable = { shaoyou_research_sharing_per_country_bonus_factor = 0.0 }
+
+		
+
+        # 军用系数
+        set_variable = { shaoyou_industrial_capacity_factory = 0 }
+        set_variable = { shaoyou_industrial_capacity_dockyard = 0 }
+        set_variable = { shaoyou_production_factory_max_efficiency_factor = 0 }
+        set_variable = { shaoyou_production_factory_efficiency_gain_factor = 0 }
+        set_variable = { shaoyou_production_lack_of_resource_penalty_factor = 0 }
+        set_variable = { shaoyou_military_factory_refit_cost_factor = 0 }
+
+        # 军队系数
+        set_variable = { shaoyou_land_reinforce_rate = 0 }
+        set_variable = { shaoyou_air_mission_efficiency_factor = 0 }
+        set_variable = { shaoyou_coordination_bonus = 0 }
+        set_variable = { shaoyou_planning_speed = 0 }
+        set_variable = { shaoyou_max_planning = 0 }
+    }
+}

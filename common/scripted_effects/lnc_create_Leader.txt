@@ -31,3 +31,9 @@ lnc_create_leader_shaoyou = {
         token_base = LNC_shaoyou
     }
 }
+
+lnc_create_leader_doctrine_master = {
+	generate_character = {
+		token_base = LNC_Zinc
+	}
+}
