@@ -1,0 +1,14 @@
+lnc_refresh_ai_guided_construction = {
+	if = {
+		limit = {
+			has_dynamic_modifier = lnc_ai_guided_construction
+		}
+		remove_dynamic_modifier = {
+			modifier = lnc_ai_guided_construction
+		}
+	}
+	add_dynamic_modifier = {
+		modifier = lnc_ai_guided_construction
+		days = 80
+	}
+}

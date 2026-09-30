@@ -189,10 +189,10 @@ leader_traits = {
 		type = land
 		trait_type = personality_trait
 		modifier = {
-			land_night_attack = 0.30
-
+			land_night_attack = 1.00
+			army_attack_factor = -0.25
             army_speed_factor = -0.10
-            initiative_factor = -0.15
+            initiative_factor = -0.03
 		}
 	}
 	trait_UESTCer = {

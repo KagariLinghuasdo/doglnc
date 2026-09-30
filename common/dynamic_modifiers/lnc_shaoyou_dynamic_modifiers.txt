@@ -1,0 +1,19 @@
+lnc_training_large_language_model = {
+	civilian_factory_use = 5
+	factory_energy_consumption = 1.0
+}
+
+lnc_ai_guided_construction = {
+	icon = GFX_idea_JAP_east_asian_co_prosperity
+    enable = { always = yes }
+    remove_trigger = { always = no }
+	stability_weekly = shaoyou_stability_weekly 
+	opinion_gain_monthly_factor =  shaoyou_opinion_gain_monthly_factor 
+	monthly_population =  shaoyou_monthly_population 
+	production_speed_infrastructure_factor =  shaoyou_production_speed_infrastructure_factor
+	production_speed_industrial_complex_factor =  shaoyou_production_speed_industrial_complex_factor
+	research_speed_factor =  shaoyou_research_speed_factor 
+	improve_relations_maintain_cost_factor =  shaoyou_improve_relations_maintain_cost_factor 
+	civilian_factory_use =  shaoyou_civilian_factory_use
+	factory_energy_consumption =  shaoyou_factory_energy_consumption 
+}

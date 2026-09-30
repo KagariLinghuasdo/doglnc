@@ -230,29 +230,6 @@ lnc_common_decisions = {
 			set_country_flag = got_shaoyou_flag
 			add_political_power = 91
 			add_stability = 0.01
-			hidden_effect = {
-				#好感度 受欢迎程度 疲劳度  淫乱度
-				set_variable = {
-					var = shaoyou_affection_level
-					value = 0
-					tooltip = haoyou_affection_level_tt
-				}
-				set_variable = {
-					var = shaoyou_popularity_level
-					value = 0
-					tooltip = shaoyou_popularity_level_tt
-				}
-				set_variable = {
-					var = shaoyou_fatigue_level
-					value = 0
-					tooltip = shaoyou_fatigue_level_tt
-				}
-				set_variable = {
-					var = shaoyou_promiscuity_level
-					value = 0
-					tooltip = shaoyou_promiscuity_level_tt
-				}	
-			}
 		}
 	}              
 

@@ -1,61 +1,141 @@
 add_namespace = LNC_shaoyou_event
+
 country_event = {
-    id = LNC_shaoyou_event.1
-    title = LNC_shaoyou_event.1.t
-    desc = LNC_shaoyou_event.1.desc
-    
-    is_triggered_only = yes
-    
-    option = {
-        name = LNC_shaoyou_event.1.a
-        trigger = {
-            NOT = { has_country_flag = havebeento_uestc_flag }
-        }
-        set_country_flag=havebeento_uestc_flag
-        add_political_power = 100
-    }
+	id = LNC_shaoyou_event.1
+	title = LNC_shaoyou_event.1.t
+	desc = LNC_shaoyou_event.1.desc
+	is_triggered_only = yes
+	option = {
+		name = LNC_shaoyou_event.civilian
+		add_political_power = 50
+		add_stability = 0.05
+		lnc_refresh_ai_guided_construction = yes
+	}
+	option = {
+		name = LNC_shaoyou_event.military
+		add_political_power = 50
+		add_war_support = 0.05
+		lnc_refresh_ai_guided_construction = yes
+	}
+	option = {
+		name = LNC_shaoyou_event.political
+		add_political_power = 100
+		lnc_refresh_ai_guided_construction = yes
+	}
+	option = {
+		name = LNC_shaoyou_event.army
+		add_army_experience = 25
+		add_war_support = 0.05
+		lnc_refresh_ai_guided_construction = yes
+	}
+}
 
-    option = {
-        name = LNC_shaoyou_event.1.b
-        trigger = {
-            NOT = { has_country_flag = havebeento_hit_flag }
-        }
-        set_country_flag=havebeento_hit_flag
-        add_political_power = 100
-    }
+country_event = {
+	id = LNC_shaoyou_event.2
+	title = LNC_shaoyou_event.2.t
+	desc = LNC_shaoyou_event.2.desc
+	is_triggered_only = yes
+	option = {
+		name = LNC_shaoyou_event.civilian
+		add_political_power = 50
+		add_stability = 0.05
+		lnc_refresh_ai_guided_construction = yes
+	}
+	option = {
+		name = LNC_shaoyou_event.military
+		add_political_power = 50
+		add_war_support = 0.05
+		lnc_refresh_ai_guided_construction = yes
+	}
+	option = {
+		name = LNC_shaoyou_event.political
+		add_political_power = 100
+		lnc_refresh_ai_guided_construction = yes
+	}
+	option = {
+		name = LNC_shaoyou_event.army
+		add_army_experience = 25
+		add_war_support = 0.05
+		lnc_refresh_ai_guided_construction = yes
+	}
+}
 
-    option = {
-        name = LNC_shaoyou_event.1.c
-        trigger = {
-            NOT = { has_country_flag = havebeento_sysu_flag }
-        }
-        set_country_flag=havebeento_sysu_flag
-        add_political_power = 100
-    }
+country_event = {
+	id = LNC_shaoyou_event.3
+	title = LNC_shaoyou_event.3.t
+	desc = LNC_shaoyou_event.3.desc
+	is_triggered_only = yes
+	option = {
+		name = LNC_shaoyou_event.civilian
+		add_political_power = 50
+		add_stability = 0.05
+		lnc_refresh_ai_guided_construction = yes
+	}
+	option = {
+		name = LNC_shaoyou_event.military
+		add_political_power = 50
+		add_war_support = 0.05
+		lnc_refresh_ai_guided_construction = yes
+	}
+	option = {
+		name = LNC_shaoyou_event.political
+		add_political_power = 100
+		lnc_refresh_ai_guided_construction = yes
+	}
+	option = {
+		name = LNC_shaoyou_event.army
+		add_army_experience = 25
+		add_war_support = 0.05
+		lnc_refresh_ai_guided_construction = yes
+	}
+}
+
+country_event = {
+	id = LNC_shaoyou_event.4
+	title = LNC_shaoyou_event.4.t
+	desc = LNC_shaoyou_event.4.desc
+	is_triggered_only = yes
+	option = {
+		name = LNC_shaoyou_event.civilian
+		add_political_power = 50
+		add_stability = 0.05
+		lnc_refresh_ai_guided_construction = yes
+	}
+	option = {
+		name = LNC_shaoyou_event.military
+		add_political_power = 50
+		add_war_support = 0.05
+		lnc_refresh_ai_guided_construction = yes
+	}
+	option = {
+		name = LNC_shaoyou_event.political
+		add_political_power = 100
+		lnc_refresh_ai_guided_construction = yes
+	}
+	option = {
+		name = LNC_shaoyou_event.army
+		add_army_experience = 25
+		add_war_support = 0.05
+		lnc_refresh_ai_guided_construction = yes
+	}
 }
 country_event = {
-    id = LNC_shaoyou_event.2
-    title = LNC_shaoyou_event.2.t
-    desc = LNC_shaoyou_event.2.desc
-    
-    is_triggered_only = yes
-    
-    option = {
-        name = LNC_shaoyou_event.2.a
-        set_country_flag=LNC_shaoyou_large_flag
-    }
-
-    option = {
-        name = LNC_shaoyou_event.2.b
-        set_country_flag=LNC_shaoyou_middle_flag
-    }
-
-    option = {
-        name = LNC_shaoyou_event.2.c
-        set_country_flag=LNC_shaoyou_small_flag
-    }
-
-    after = { 
-        
-    }
+	id = LNC_shaoyou_event.7
+	title = LNC_shaoyou_event.7.t
+	desc = LNC_shaoyou_event.7.desc
+	is_triggered_only = yes
+	option = {
+		name = LNC_shaoyou_event.7.a
+		add_political_power = -50
+	}
+}
+country_event = {
+	id = LNC_shaoyou_event.8
+	title = LNC_shaoyou_event.8.t
+	desc = LNC_shaoyou_event.8.desc
+	is_triggered_only = yes
+	option = {
+		name = LNC_shaoyou_event.8.a
+		add_political_power = -50
+	}
 }

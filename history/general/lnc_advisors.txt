@@ -120,7 +120,7 @@ every_possible_country = {
 		advisor = {
             slot = political_advisor
             idea_token = LNC_shaoyou
-            traits = { Vanilla_trait }
+			traits = { Vanilla_trait lnc_future_technology }
 			on_add = {
 				set_country_flag = lnc_hired_shaoyou
 			}
