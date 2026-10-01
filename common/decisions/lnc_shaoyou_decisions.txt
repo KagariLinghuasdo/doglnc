@@ -4,7 +4,7 @@ lnc_shaoyou_decisions = {
 			NOT = { has_country_flag = lnc_shaoyou_llm_trained }
 		}
 		available = {
-			num_of_available_civilian_factories > 20
+			num_of_civilian_factories_available_for_projects > 20
 		}
 		fire_only_once = yes
 		cost = 50
@@ -31,7 +31,7 @@ lnc_shaoyou_decisions = {
 		available = {
 			has_country_flag = lnc_shaoyou_llm_trained
 			NOT = { has_country_flag = lnc_shaoyou_llm_cooldown }
-			num_of_available_civilian_factories > 10
+			num_of_civilian_factories_available_for_projects > 10
 		}
 		cost = 25
 		days_remove = 1
@@ -59,7 +59,7 @@ lnc_shaoyou_decisions = {
 		available = {
 			has_country_flag = lnc_shaoyou_llm_trained
 			NOT = { has_country_flag = lnc_shaoyou_llm_cooldown }
-			num_of_available_civilian_factories > 15
+			num_of_civilian_factories_available_for_projects > 15
 		}
 		cost = 25
 		days_remove = 1
@@ -87,7 +87,7 @@ lnc_shaoyou_decisions = {
 		available = {
 			has_country_flag = lnc_shaoyou_llm_trained
 			NOT = { has_country_flag = lnc_shaoyou_llm_cooldown }
-			num_of_available_civilian_factories > 5
+			num_of_civilian_factories_available_for_projects > 5
 		}
 		cost = 25
 		days_remove = 1
@@ -122,7 +122,7 @@ lnc_shaoyou_decisions = {
 		available = {
 			has_country_flag = lnc_shaoyou_llm_trained
 			NOT = { has_country_flag = lnc_shaoyou_llm_cooldown }
-			num_of_available_civilian_factories > 1
+			num_of_civilian_factories_available_for_projects > 1
 		}
 		cost = 25
 		days_remove = 1

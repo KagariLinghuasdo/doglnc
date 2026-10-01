@@ -7,8 +7,11 @@
  lnc_use_deepseek:"使用DeepSeek"
  lnc_use_doubao:"使用豆包"
  lnc_train_large_language_model:"训练大模型"
- lnc_train_large_language_model_desc:"训练少游的大模型，需要90天。训练期间工厂能源（电力）消耗增加100%，固定占用5个民用工厂。"
+ 
+ lnc_train_large_language_model_desc:"训练少游的大模型。"
  lnc_training_large_language_model:"大模型训练中"
+ lnc_shaoyou_llm_trained:"大模型已训练完成"
+ lnc_shaoyou_llm_cooldown:"最近已使用大模型"
  lnc_training_large_language_model_desc:"少游正在训练大模型。训练完成后，才能利用大模型为国家提供发展建议。"
  lnc_ai_guided_construction_industrial:"AI指导中——工业"
  lnc_ai_guided_construction_production:"AI指导中——生产"

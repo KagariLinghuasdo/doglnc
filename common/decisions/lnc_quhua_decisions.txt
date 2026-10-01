@@ -213,8 +213,7 @@ lnc_quhua_decisions = {
 		visible = {
 			has_country_flag = got_doctrine_master_flag
 		}
-		fire_only_once = no
-		days_re_enable = 30
+		fire_only_once = yes
 		ai_will_do = {
 			factor = 0
 		}
