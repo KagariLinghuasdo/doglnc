@@ -5,9 +5,7 @@ country_event = {
 	title = LNC_shaoyou_event.1.t
 	desc = LNC_shaoyou_event.1.desc
 	is_triggered_only = yes
-	option = {
-		name = LNC_shaoyou_event.civilian
-		add_political_power = 50
+	immediate = {
 		#民用
 		set_variable = { shaoyou_stability_weekly = 0.001 }
 		set_variable = { shaoyou_opinion_gain_monthly_factor = 0.15 }
@@ -15,11 +13,31 @@ country_event = {
 		set_variable = { shaoyou_production_speed_industrial_complex_factor= 0.15 }
 		set_variable = { shaoyou_shaoyou_production_speed_arms_factory_factor = 0.15 }
 		set_variable = { shaoyou_research_speed_factor = 0.10 }
+		#军用
+		set_variable = { shaoyou_industrial_capacity_factory = 0.10 }
+		set_variable = { shaoyou_industrial_capacity_dockyard = 0.10 }
+		set_variable = { shaoyou_production_factory_max_efficiency_factor = 0.25}
+		set_variable = { shaoyou_production_factory_efficiency_gain_factor= 0.50 }
+		#军队
+		set_variable = { shaoyou_land_reinforce_rate = 0.02 }
+		set_variable = { shaoyou_coordination_bonus = 0.02 }
+		set_variable = { shaoyou_planning_speed  = 0.50 }
+		set_variable = { shaoyou_max_planning = 0.50 }
+
+	}
+
+	option = {
+		name = LNC_shaoyou_event.civilian
+		add_political_power = 50
 		add_offsite_building = {
 			type = industrial_complex
 			level = 3
     	}
-		lnc_refresh_ai_guided_construction = yes
+		lnc_remove_ai_guided_construction = yes
+		add_dynamic_modifier = {
+			modifier = lnc_ai_guided_construction_industrial
+			days = 85 
+		}
 	}
 	option = {
 		name = LNC_shaoyou_event.military
@@ -27,20 +45,19 @@ country_event = {
 			type = arms_factory
 			level = 3
     	}
-		set_variable = { shaoyou_industrial_capacity_factory = 0.10 }
-		set_variable = { shaoyou_industrial_capacity_dockyard = 0.10 }
-		set_variable = { shaoyou_production_factory_max_efficiency_factor = 0.25}
-		set_variable = { shaoyou_production_factory_efficiency_gain_factor= 0.50 }
-		 
-		lnc_refresh_ai_guided_construction = yes
+		lnc_remove_ai_guided_construction = yes
+		add_dynamic_modifier = {
+			modifier = lnc_ai_guided_construction_production
+			days = 85 
+		}
 	}
 	option = {
 		name = LNC_shaoyou_event.army
-		set_variable = { shaoyou_land_reinforce_rate = 0.02 }
-		set_variable = { shaoyou_coordination_bonus = 0.02 }
-		set_variable = { shaoyou_planning_speed  = 0.50 }
-		set_variable = { shaoyou_max_planning = 0.50 }
-		lnc_refresh_ai_guided_construction = yes
+		lnc_remove_ai_guided_construction = yes
+		add_dynamic_modifier = {
+			modifier = lnc_ai_guided_construction_army
+			days = 85 
+		}
 	}
 }
 
@@ -49,10 +66,8 @@ country_event = {
 	title = LNC_shaoyou_event.2.t
 	desc = LNC_shaoyou_event.2.desc
 	is_triggered_only = yes
-	
-	option = {
-		name = LNC_shaoyou_event.civilian
-		add_political_power = 50
+	immediate = {
+		#
 		set_variable = { shaoyou_stability_weekly = 0.001 }
 		set_variable = { shaoyou_opinion_gain_monthly_factor = 0.15 }
 		set_variable = { shaoyou_monthly_population = 0.10 }
@@ -61,28 +76,54 @@ country_event = {
 		set_variable = { shaoyou_shaoyou_production_speed_arms_factory_factor = 0.25 }
 		set_variable = { shaoyou_research_speed_factor = 0.20 }
 		set_variable = { shaoyou_local_resources_factor = 0.20 }
-		
+		#
+		set_variable = { shaoyou_industrial_capacity_factory = 0.10 }
+		set_variable = { shaoyou_industrial_capacity_dockyard = 0.10 }
+		set_variable = { shaoyou_production_factory_max_efficiency_factor = 0.10 }
+		set_variable = { shaoyou_production_lack_of_resource_penalty_factor= -0.20 }
+		#
+		set_variable = { shaoyou_land_reinforce_rate = 0.04 }
+		set_variable = { shaoyou_coordination_bonus = 0.04 }
+		set_variable = { shaoyou_planning_speed  = 0.75 }
+		set_variable = { shaoyou_max_planning = 0.75 }
+
+
+	}
+
+	option = {
+		name = LNC_shaoyou_event.civilian
+		add_political_power = 50
 		add_offsite_building = {
 			type = industrial_complex
 			level = 3
     	}
-		lnc_refresh_ai_guided_construction = yes
+		lnc_remove_ai_guided_construction = yes
+		add_dynamic_modifier = {
+			modifier = lnc_ai_guided_construction_industrial
+			days = 85 
+		}
 	}
 	option = {
 		name = LNC_shaoyou_event.military
 		every_military_industrial_organization = {
-        	add_mio_size = 1
+        	add_mio_size = 2
     	}
-		set_variable = { shaoyou_production_factory_max_efficiency_factor = 0.10 }
-		set_variable = { shaoyou_production_lack_of_resource_penalty_factor= -0.20 }
-		lnc_refresh_ai_guided_construction = yes
+		lnc_remove_ai_guided_construction = yes
+		add_dynamic_modifier = {
+			modifier = lnc_ai_guided_construction_production
+			days = 85 
+		}
 	}
 	option = {
 		name = LNC_shaoyou_event.army
 		every_army_leader = {
         	add_skill_level = 2
     	}
-		lnc_refresh_ai_guided_construction = yes
+		lnc_remove_ai_guided_construction = yes
+		add_dynamic_modifier = {
+			modifier = lnc_ai_guided_construction_army
+			days = 85 
+		}
 	}
 }
 
@@ -91,22 +132,41 @@ country_event = {
 	title = LNC_shaoyou_event.3.t
 	desc = LNC_shaoyou_event.3.desc
 	is_triggered_only = yes
-	#民用
-	option = {
-		name = LNC_shaoyou_event.civilian
-		add_political_power = 50
-	    set_variable = { shaoyou_stability_weekly = 0.005 }
+	immediate = {
+		#民用
+
+		set_variable = { shaoyou_stability_weekly = 0.005 }
 		set_variable = { shaoyou_opinion_gain_monthly_factor = 0.05 }
 		set_variable = { shaoyou_production_speed_infrastructure_factor= 0.10 }
 		set_variable = { shaoyou_production_speed_industrial_complex_factor= 0.05 }
 		set_variable = { shaoyou_shaoyou_production_speed_arms_factory_factor = 0.05 }
 		set_variable = { shaoyou_research_speed_factor = 0.03 }
 		set_variable = { shaoyou_research_sharing_per_country_bonus_factor = 0.50 }
+		#
+		set_variable = { shaoyou_industrial_capacity_factory = 0.05 }
+		set_variable = { shaoyou_industrial_capacity_dockyard = 0.05 }
+		set_variable = { shaoyou_production_factory_max_efficiency_factor = 0.15 }
+		set_variable = { shaoyou_production_factory_efficiency_gain_factor= 0.20 }
+		#
+		set_variable = { shaoyou_land_reinforce_rate = 0.02 }
+		set_variable = { shaoyou_air_mission_efficiency_factor = 0.20 }
+		set_variable = { shaoyou_coordination_bonus = 0.02 }
+		set_variable = { shaoyou_planning_speed  = 0.30 }
+		set_variable = { shaoyou_max_planning = 0.30 }
+
+	}
+
+	option = {
+		name = LNC_shaoyou_event.civilian
 		add_offsite_building = {
 			type = industrial_complex
 			level = 3
     	}
-		lnc_refresh_ai_guided_construction = yes
+		lnc_remove_ai_guided_construction = yes
+		add_dynamic_modifier = {
+			modifier = lnc_ai_guided_construction_industrial
+			days = 85 
+		}
 	}
 	option = {
 		name = LNC_shaoyou_event.military
@@ -114,20 +174,19 @@ country_event = {
 			type = arms_factory
 			level = 3
     	}
-		set_variable = { shaoyou_industrial_capacity_factory = 0.05 }
-		set_variable = { shaoyou_industrial_capacity_dockyard = 0.05 }
-		set_variable = { shaoyou_production_factory_max_efficiency_factor = 0.15 }
-		set_variable = { shaoyou_production_factory_efficiency_gain_factor= 0.20 }
-		lnc_refresh_ai_guided_construction = yes
+		lnc_remove_ai_guided_construction = yes
+		add_dynamic_modifier = {
+			modifier = lnc_ai_guided_construction_production
+			days = 85 
+		}
 	}
 	option = {
 		name = LNC_shaoyou_event.army
-		set_variable = { shaoyou_land_reinforce_rate = 0.02 }
-		set_variable = { shaoyou_air_mission_efficiency_factor = 0.20 }
-		set_variable = { shaoyou_coordination_bonus = 0.02 }
-		set_variable = { shaoyou_planning_speed  = 0.30 }
-		set_variable = { shaoyou_max_planning = 0.30 }
-		lnc_refresh_ai_guided_construction = yes
+		lnc_remove_ai_guided_construction = yes
+		add_dynamic_modifier = {
+			modifier = lnc_ai_guided_construction_army
+			days = 85 
+		}
 	}
 }
 
@@ -136,14 +195,22 @@ country_event = {
 	title = LNC_shaoyou_event.4.t
 	desc = LNC_shaoyou_event.4.desc
 	is_triggered_only = yes
-	#民用
+	immediate = {
+		#民用
+		set_variable = { shaoyou_opinion_gain_monthly_factor = 0.05 }
+		set_variable = { shaoyou_production_speed_infrastructure_factor= 0.01 }
+
+	}
+
 	option = {
 		name = LNC_shaoyou_event.civilian
 		add_political_power = 25
 		add_stability = 0.01
-		set_variable = { shaoyou_opinion_gain_monthly_factor = 0.05 }
-		set_variable = { shaoyou_production_speed_infrastructure_factor= 0.01 }
-		lnc_refresh_ai_guided_construction = yes
+		lnc_remove_ai_guided_construction = yes
+		add_dynamic_modifier = {
+			modifier = lnc_ai_guided_construction_industrial
+			days = 85 
+		}
 	}
 }
 country_event = {

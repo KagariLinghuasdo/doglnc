@@ -181,7 +181,6 @@ leader_traits = {
 		planning_skill = 1
 		modifier = {
             planning_speed = 0.25 
-			wound_chance_factor = 0.50
 		}
 	}
 
@@ -201,17 +200,9 @@ leader_traits = {
 		modifier = {
 			recon_factor = 0.25
         	coordination_bonus = 0.15
-        	signal_company_initiative_factor = 0.50
+        	land_reinforce_rate = 0.50
 		}
 	}
-	trait_HSR_player = {
-        type = land
-        trait_type = personality_trait 
-        modifier = {
-            army_attack_factor = hsr_player_var
-            army_defence_factor = hsr_player_var
-        }
-    }
 
  
 }

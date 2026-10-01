@@ -1,0 +1,16 @@
+add_namespace = LNC_hsr_update_event
+
+country_event = {
+    id = LNC_hsr_update_event.1
+    hidden = yes
+    is_triggered_only = yes
+    immediate = {
+        HSR_trait_update = yes
+        country_event = {
+    		id = LNC_hsr_update_event.1
+    		days = 350
+		}	
+    }
+    option = {
+    }
+}

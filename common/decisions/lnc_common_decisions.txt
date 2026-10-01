@@ -111,7 +111,6 @@ lnc_common_decisions = {
 		remove_effect = {
 			lnc_create_leader_Liewartine = yes
 			set_country_flag = got_Liewartine_flag
-			#set_technology = { lnc_mcdonalds_forces = 1 } 未完成
 			add_political_power = 91
 			add_stability = 0.01
 		}
@@ -250,24 +249,27 @@ lnc_common_decisions = {
 			add_political_power = 91
 		}
 	}
-	#hire_Storozhevoy = {
-	#	available = {
-	#		is_ai = no
-	#	}
-	#	fire_only_once = yes
-	#	cost = 69
-	#	days_remove = 30
-	#	ai_will_do = {
-	#		factor = 0
-	#	}
-	#	remove_effect = {
-	#		lnc_create_leader_Storozhevoy = yes
-	#		set_country_flag = got_Storozhevoy_flag
-	#		add_political_power = 91
-	#		hidden_effect = {
-	#			set_variable = { hsr_player_var = 0.005 }
-	#		}
-	#	}
-	#}
+	hire_Storozhevoy = {
+		available = {
+			is_ai = no
+		}
+		fire_only_once = yes
+		cost = 69
+		days_remove = 30
+		ai_will_do = {
+			factor = 0
+		}
+		remove_effect = {
+			lnc_create_leader_Storozhevoy = yes
+			set_country_flag = got_Storozhevoy_flag
+			add_political_power = 91
+			hidden_effect = {
+				country_event = {
+    				id = shaoyou_delayed_event.1
+    				days = 350
+				}	
+			}
+		}
+	}
 
 }

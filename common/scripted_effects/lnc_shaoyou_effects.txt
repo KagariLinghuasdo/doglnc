@@ -1,15 +1,27 @@
-lnc_refresh_ai_guided_construction = {
+lnc_remove_ai_guided_construction = {
 	if = {
 		limit = {
-			has_dynamic_modifier = lnc_ai_guided_construction
+			has_dynamic_modifier = lnc_ai_guided_construction_industrial
 		}
 		remove_dynamic_modifier = {
-			modifier = lnc_ai_guided_construction
+			modifier = lnc_ai_guided_construction_industrial
 		}
 	}
-	add_dynamic_modifier = {
-		modifier = lnc_ai_guided_construction
-		days = 80
+	if = {
+		limit = {
+			has_dynamic_modifier = lnc_ai_guided_construction_production
+		}
+		remove_dynamic_modifier = {
+			modifier = lnc_ai_guided_construction_production
+		}
+	}
+	if = {
+		limit = {
+			has_dynamic_modifier = lnc_ai_guided_construction_army
+		}
+		remove_dynamic_modifier = {
+			modifier = lnc_ai_guided_construction_army
+		}
 	}
 }
 init_shaoyou_variables = {

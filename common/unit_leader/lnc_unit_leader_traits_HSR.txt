@@ -1,6 +1,5 @@
 leader_traits = {
 	trait_HSR_player_1 = {
-		desc
         type = land
         trait_type = personality_trait 
         modifier = {
@@ -64,15 +63,12 @@ leader_traits = {
             army_defence_factor = 1.28
         }
     }
-	trait_HSR_player_8 = {
+	trait_HSR_player_9 = {
         type = land
         trait_type = personality_trait 
         modifier = {
             army_attack_factor = 2.56
             army_defence_factor = 2.56
         }
-    }
-
-
- 
+    } 
 }

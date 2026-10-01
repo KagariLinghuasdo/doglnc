@@ -46,5 +46,11 @@ spriteTypes = {
 		texturefile = gfx\leaders\GFX_portrait_Zinc_156x210.png
 	}
 }
+spriteTypes = {	
+	spriteType = {
+		name = GFX_portrait_Storozhevoy_army
+		texturefile = gfx\leaders\GFX_portrait_Storozhevoy_156x210.png
+	}
+}
 
  
