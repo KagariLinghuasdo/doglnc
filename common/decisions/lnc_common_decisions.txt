@@ -265,7 +265,7 @@ lnc_common_decisions = {
 			add_political_power = 91
 			hidden_effect = {
 				country_event = {
-    				id = shaoyou_delayed_event.1
+    				id = LNC_hsr_update_event.1
     				days = 350
 				}	
 			}
